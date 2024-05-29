@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "output": "dist",
     "plugins": [
       {
         "name": "@nestjs/swagger",
