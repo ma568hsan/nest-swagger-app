@@ -1,5 +1,7 @@
 {
+  "framework": "nestjs",
   "version": 2,
+  "installCommand": "npm install --force",
   "builds": [
     {
       "src": "src/main.ts",
