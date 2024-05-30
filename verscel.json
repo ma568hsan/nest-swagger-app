@@ -1,7 +1,6 @@
 {
-  "framework": "nestjs",
   "version": 2,
-  "installCommand": "npm install --force",
+
   "builds": [
     {
       "src": "src/main.ts",
@@ -12,14 +11,7 @@
     {
       "src": "/(.*)",
       "dest": "src/main.ts",
-      "methods": [
-        "GET",
-        "POST",
-        "PUT",
-        "DELETE",
-        "PATCH",
-        "OPTIONS"
-      ]
+      "methods": ["GET", "POST", "PUT", "DELETE"]
     }
   ]
 }
